@@ -8,7 +8,8 @@
 ----
 ## Architecture
 
-![Image](https://github.com/user-attachments/assets/fa7025c2-fdfa-4a06-9eb5-572339619913)
+![Image](https://github.com/user-attachments/assets/d9f3f38e-700e-467c-80db-b61e959e7966)
+
 
 ----
 ## Features
