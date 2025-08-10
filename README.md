@@ -1,6 +1,11 @@
 # Automated Data Pipeline Using AWS (S3, Lambda, Glue, Step Functions, SNS)
 
 ----
+## Index
+   *  [Overview](#overview)
+   *  [Tech Stack](#tech-stack) 
+
+----
 ## Overview
 
  This project demonstrates a fully automated serverless data pipeline built on AWS to streamline the ingestion, transformation, and processing of daily CSV sales data. The pipeline eliminates manual intervention by using AWS Lambda to trigger workflows, AWS Glue for ETL operations, and AWS Step Functions for orchestration. Upon successful processing, the system sends a confirmation email to stakeholders using SNS.
