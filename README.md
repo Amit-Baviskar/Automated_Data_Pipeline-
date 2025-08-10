@@ -2,8 +2,19 @@
 
 ----
 ## Index
-   *  [Overview](#overview)
-   *  [Tech Stack](#tech-stack) 
+
+   ## 📚 Index  
+1. [Overview](#overview)  
+2. [Architecture](#architecture)  
+3. [Features](#features)  
+4. [Tech Stack](#tech-stack)  
+5. [File Structure](#file-structure)  
+6. [Project Flow](#project-flow)  
+7. [Getting Started](#getting-started)  
+    - [Prerequisites](#prerequisites)  
+    - [Setup Steps](#setup-steps)  
+8. [Key Takeaways](#key-takeaways)  
+9. [Future Enhancements](#future-enhancements)  
 
 ----
 ## Overview
@@ -45,6 +56,20 @@
 
   * AWS CloudWatch – Logging and monitoring
     
+----
+## File Struture
+
+ project-root/
+│
+├── lambda_function.py         # Lambda function code for triggering Step Functions
+├── glue_etl_job.py            # AWS Glue ETL script (PySpark)
+├── step_function_definition.json # Step Functions state machine definition
+├── README.md                  # Project documentation
+└── assets/
+    └── architecture.png       # Architecture diagram
+
+
+
 ----
 ## Project Flow
 
