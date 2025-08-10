@@ -59,14 +59,14 @@
 ----
 ## File Struture
 
- project-root/
-│
-├── lambda_function.py         # Lambda function code for triggering Step Functions
-├── glue_etl_job.py            # AWS Glue ETL script (PySpark)
-├── step_function_definition.json # Step Functions state machine definition
-├── README.md                  # Project documentation
-└── assets/
-    └── architecture.png       # Architecture diagram
+       project-root/
+      │
+      ├── lambda_function.py         # Lambda function code for triggering Step Functions
+      ├── glue_etl_job.py            # AWS Glue ETL script (PySpark)
+      ├── step_function_definition.json # Step Functions state machine definition
+      ├── README.md                  # Project documentation
+      └── assets/
+          └── architecture.png       # Architecture diagram
 
 
 
